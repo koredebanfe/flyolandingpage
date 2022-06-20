@@ -6,253 +6,146 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./index.css">
-  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="navigation">
-            <nav class="nav__section">
-                <header>
-                    <img src="./images/logo.svg" alt="logo">
-                </header>
-
-                <ul class="nav__links">
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Sign In</a></li>
-                </ul>
-            </nav>
+    <nav>
+        <div class="nav--logo">
+            <img src="./images/logo.svg" alt="logo icon">
         </div>
 
-        <div class="main__content">
-            <main>
-                <section class="main__section subscription">
-                    <header>
-                        <img src="./images/illustration-intro.png" alt="acess file anywhere" class="header__image">
-                       <h1>All your files in one secure location, accessible anywhere.</h1> 
-                    </header>
-                    <p>
-                        Fylo stores all your most important files in one secure location. Access them wherever 
-                        you need, share and collaborate with friends family, and co-workers.
-                    </p>
-                    <p class="subscription__button">
-                        <a href="#">Get Started</a>
-                    </p>
-                </section>
-
-                <section class= "subscription__benefits">
-
-                    <section class=" main__section access__your__files">
-                        <img src="./images/icon-access-anywhere.svg" alt="access file">
-                        <header>
-                            Access your files, anywhere
-                        </header>
-                        <p>
-                            The ability to use a smartphone, tablet, or computer to access your account means your 
-                            files follow you everywhere.
-                        </p>
-                    </section>
-
-                    <section class="main__section subscription__security">
-                        <img src="./images/icon-security.svg" alt="security">
-                        <header>
-                            Security you can trust
-                        </header>
-                        <p>
-                            2-factor authentication and user-controlled encryption are just a couple of the security 
-                            features we allow to help secure your files.
-                        </p>
-                    </section>
-
-                    <section class="main__section subscription__collaboration">
-                        <img src="./images/icon-collaboration.svg" alt="collaboration">
-                        <header>
-                            Real-time collaboration
-                        </header>
-                        <p>
-                            Securely share files and folders with friends, family and colleagues for live collaboration. 
-                            No email attachments required.
-                        </p>
-                    </section>
-
-                    <section class="main__section subscription__file__storage">
-                        <img src="./images/icon-any-file.svg" alt="collaboration">
-                        <header>
-                            Store any type of file
-                        </header>
-                        <p>
-                            Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-                            file types to be securely stored and shared.
-                        </p>
-                    </section>
-                </section>
-
-                <section class="stay__productive">
-                    <div class="stay__productive__image">
-                        <img src="./images/illustration-stay-productive.png" alt="">
-                    </div>
-
-                    <section class="stay__productive__content">
-                        <header>
-                            Stay productive, wherever you are
-                        </header>
-
-                        <p>
-                            Securely share files and folders with friends, family and colleagues for live collaboration. 
-                            No email attachments required.
-                        </p>
-
-                        <p>
-                            Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-                            storage needs.
-                        </p>
-
-                        <span><a href="#">See how Fylo works <img src="./images/icon-arrow.svg" alt="arrow direction"></a></span>
-                    </section>
-                </section>
-
-                <section class="subscription__testimonial">
-                    <img src="./images/bg-quotes.png" alt="quotes" class="quotes">
-                    <div>
-                        <article>
-                            <p>
-                                Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-                                become a well-oiled collaboration machine.
-                            </p>
-    
-                            <div>
-                                <img src="./images/profile-1.jpg" alt="Satish Patel" class="profile">
-    
-                                <div>
-                                    <p>
-                                        <span class="name">Satish Patel</span> <br>
-                                        <span class="title"> Founder & CEO, Huddle</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-    
-                        <article>
-                            <p>
-                                Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-                                become a well-oiled collaboration machine.  
-                            </p>
-    
-                            <div>
-                                <img src="./images/profile-2.jpg" alt="Bruce McKenzie" class="profile">
-    
-                                <div>
-                                    <p>
-                                        <span class="name">Bruce McKenzie</span><br>
-                                        <span class="title"> Founder & CEO, Huddle</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-    
-                        <article>
-                            <p>
-                                Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-                                become a well-oiled collaboration machine.
-                            </p>
-    
-                            <div>
-                                <img src="./images/profile-3.jpg" alt="Iva Boyd" class="profile">
-    
-                                <div>
-                                    <p>
-                                        <span class="name">Iva Boyd</span> <br>
-                                        <span class="title"> Founder & CEO, Huddle</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-
-                <section class="get__access">
-                    <header>
-                        Get early access today
-                    </header>
-
-                    <p>
-                        It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-                        questions, our support team would be happy to help you.
-                    </p>
-
-                    <div class="email__subscription">
-                        <div>
-                            <input type="email" placeholder="email@yahoo.com">
-                        </div>
-                        <div>
-                            <a href="#" class="get__access__link">Get Started For Free</a>
-                        </div>
-                    </div>
-                </section>
-            </main>
-
-            <footer class="footer">
-                <img src="./images/logo.svg" alt="logo">
-                <section class="footer__container">
-
-                    <div class="location">
-                        <img src="./images/icon-location.svg" alt="location"> <br>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                            dolore magna aliqua
-                        </p>
-                    </div>
-
-                    <div class="contact__us">
-                        <div class="call__us">
-                            <img src="./images/icon-phone.svg" alt="phonecall"> <br>
-                            <p>
-                                +1-543-123-4567
-                            </p>
-                        </div>
-
-                        <div class="email">
-                            <img src="./images/icon-email.svg" alt="email">
-                            <p>
-                                example@fylo.com
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="info">
-                        <a href="#"> About Us </a>
-                        <a href="#"> Jobs </a> 
-                        <a href="#"> Press</a> 
-                        <a href="#">Blog</a>
-                    </div>
-
-                    <div class="contact">
-                        <a href="#">Contact Us</a> <br>
-                        <a href="#">Terms</a> <br>
-                        <a href="#"> Privacy</a>
-                    </div>
-
-                    <section class="social__media">
-                        <ul class="social__links">
-                            <li><a href="#"><img src="./images/icon-facebook.svg" alt="facebook"></a></li>
-                            <li><a href="#"><img src="./images/icon-twitter.svg" alt="twitter"></a></li>
-                            <li><a href="#"><img src="./images/icon-instagram.svg" alt="instagram"></a></li>
-                        </ul>
-                    </section>
-                </section>
-
-                <p class="attribution">
-                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-                    Coded by <a href="https://github.com/koredebanfe">Korex</a>.
-                  </p>
-            </footer>
+        <div class="nav--links">
+            <a href="#">Try it free</a>
         </div>
-    </div> 
+    </nav>
+
+    <main class="container">
+        <heading class="hurddle--header">
+            <h1>
+                Build The Community Your Fans Will Love
+            </h1>
+
+            <p>
+                Huddle re-imagines the way we build communities. You have a voice, but so does 
+                your audience. Create connections with your users as you engage in genuine discussion. 
+            </p>
+
+            <a href="#"> Get Started For Free</a>
+            <img src="./images/screen-mockups.svg" alt="">
+        </heading>
+
+        <section class="hurddle--feedback">
+            <div>
+                <p>
+                    1.4k+
+                </p>
+                <p>
+                    Communities Formed
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    2.7m+
+                </p>
+                <p>
+                    Messages Sent
+                </p>
+            </div>
+        </section>
+
+        <section class="hurddle--grow">
+            <div>
+                <h2>
+                    Grow Together
+                </h2>
+                <p>
+                    Generate meaningful discussions with your audience and build a strong, loyal community. 
+                    Think of the insightful conversations you miss out on with a feedback form. 
+                </p>
+            </div>
+            <div>
+                <img src="./images/illustration-grow-together.svg" alt="grow together logo">
+            </div>
+        </section>
+
+        <section class="hurddle--conversation">
+            <div>
+                <h2>
+                    Flowing Conversations
+                </h2>
+                <p>
+                    You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+                    just-in-time loading for a more natural flow.
+                </p>
+            </div>
+
+            <div>
+                <img src="./images/illustration-flowing-conversation.svg" alt="flowing conversation illustration">
+            </div>
+        </section>
+
+        <section class="hurddle--users">
+            <div>
+                <h2>
+                    Your Users
+                </h2>
+                <p>
+                    It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+                    once signed in to your app, your users can start chatting immediately.
+                </p>
+            </div>
+
+            <div>
+                <img src="./images/illustration-your-users.svg" alt="hurddle user illustration">
+            </div>
+        </section>
+
+        <section class="hurddle--community">
+            <h2>
+                Ready To Build Your Community?
+            </h2>
+            <a href="#"> Get Started For Free</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="hurddle--signup">
+            <img src="./images/logo.svg" alt="logo">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+                vestibulum a, ultrices quis sem.
+            </p>
+            <p>
+                <span class="hurddle--contact"><img src="./images/icon-phone.svg" alt="hurddle call"></span>
+                Phone: +1-543-123-4567
+            </p>
+            <p>
+                <span class="hurddle--contact"><img src="./images/icon-email.svg" alt="hurddle email"></span>
+                example@huddle.com
+            </p>
+
+            <div class="hurddle--social">
+                <img src="./images/" alt="">
+            </div>
+        </section>
+
+        <section class="hurddle--subcription">
+            <h3>
+                Newsletter
+            </h3>
+
+            <p>
+                To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+                send you spam or pass on your email address
+            </p>
+            <div class="hurddle--input">
+                <form action="">
+                    <input type="text" name="email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

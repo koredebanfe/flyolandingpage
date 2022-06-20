@@ -1,311 +1,56 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
-}
-
-@font-face {
-    font-family: Raleway;
-    src: url("font/Raleway-SemiBold.ttf")
-    format("truetype");
-}
-
-@font-face {
-    font-family: "Open sans";
-    src: url("font/OpenSans-Regular.ttf") format("truetype");
-}
-
-header, nav {
-    font-family: Raleway;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: "Opens sans";
-    background-color: hsl(218, 28%, 13%);
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    line-height: 1.5em;
 }
-
-html {
-    background-color: hsl(218, 28%, 13%);
-    color: whitesmoke;
-    font-family: open;
-}
-
-main {
-    margin: 0 8vw;
-}
-
-a {
-    color: whitesmoke;
-}
-
-[alt="logo"] {
-    width: 70px;
-    height: 20px;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 5vh 4vw;
+    padding-top: 3vw;
+    margin-bottom: 2em;
 }
 
-nav ul li {
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 6vw;
-}
-
-nav li > a {
+.nav--links a {
     text-decoration: none;
-}
-
-nav li > a:hover {
-    text-decoration: underline;
-}
-
-.subscription {
-    text-align: center;
-    line-height: 1.3;
-    width: 60vw;
-    margin: auto;
-}
-
-.subscription img {
-    width: 50vw;
-    height: 30vw;
-}
-
-.subscription h1 {
-    margin-bottom: 3vw;
-}
-
-.subscription p > a {
-    background-color: aqua;
-    padding: 1.5vh 8vw;
-    border-radius: 40px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-family: Raleway;
-}
-
-.subscription p:last-child {
-    margin-top: 5vh;
-    margin-bottom: 12vh;
-}
-
-.subscription__benefits {
-    margin: 5vh 3vw;
-    line-height: 1.3;
-    text-align: center;
-}
-
-.subscription__benefits img {
-    margin: 4vh 0 2vh;
-}
-
-.subscription__benefits header {
-    margin: 2vh 0;
-    font-size: 1.3rem;
-}
-
-.stay__productive header {
-    font-size: 1.5rem;
-    margin-bottom: 3vh;
+    color: none;
     font-weight: 700;
-}
-
-.stay__productive p {
-    margin-bottom: 3vh;
-}
-
-.stay__productive__image img {
-    width: 80vw;
-    height: 60vh;
-}
-
-.subscription__testimonial .quotes {
-    position: relative;
-    top: 8vh;
-    left: 3vw;
-    
-}
-
-.subscription__testimonial .profile {
-    width: max-width;
-    border-radius: 50%;
-    height: 10vh;
-}
-
-.subscription__testimonial article > div {
-    display: flex;
-    margin-top: 2vh;
-}
-
-.subscription__testimonial div > p {
-    margin-left: 5vw;
-}
-
-.subscription__testimonial article {
-    width: 70vw;
-    margin-top: 5vh;
-    background-color: hsl(219, 30%, 18%);
-    padding: 5vh 3vw;
-    border-radius: 10px;
-    z-index: 100;
-}
-
-.get__access {
-    text-align: center;
-    width: 80vw;
-    margin: auto;
-    margin-top: 10vh;
-    line-height: 1.3;
-    background-color: hsl(219, 30%, 18%);
-    padding: 5vh 4vw;
-}
-
-.email__subscription a, .email__subscription input {
-    display: block;
-    margin: auto;
-    width: 50vw;
-    padding: 1vw 2vw;
-    border-radius: 20px;
-    margin-top: 2vw;
-    outline: none;
-}
-
-.email__subscription a {
-    text-decoration: none;
-    background-color: aqua;
-}
-
-.get__access header {
     font-size: 1.5em;
-    margin-bottom: 2vh;
+    color: black;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
+h1 {
+    line-height: 1.2em;
+    margin-bottom: 00.5em;
 }
 
-.footer {
-    margin-left: 5vw;
-    margin-top: 15vh;
-    background-color: (216, 53%, 9%);
-}
-
-.attribution {
-    margin-top: 5vh;
-}
-
-.footer a {
-    text-decoration: none;
-    margin-top: 10px;
-}
-
-.footer img {
-    width: max-width;
+img {
+    max-width: 100%;
     height: auto;
 }
 
-.footer section > div {
-    margin-top: 5vh;
-}
-
-.location, .contact__us > div {
-    display: flex;
-    margin-top: 2vh;
-}
-
-.contact__us p, .location p {
-    margin-left: 3vw;
-}
-
-.social__links li {
+.hurddle--header a {
     display: inline-block;
-    margin-top: 5vh;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.5em;
+    margin: 1em 0;
+    border-radius: 30px;
+    font-size: 1.5em;
 }
 
-.footer[href="#"] {
-    margin-top: 5vh;
+.hurddle--feedback{
+    margin: 2em 0;
 }
 
-
-@media screen and (min-width: 700px) {
-    .subscription {
-        padding: 0 10vw;
-    }
-
-    .subscription__benefits {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .subscription__benefits section {
-        width: 30vw;
-    }
-
-    .stay__productive {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 8vh;
-    }
-
-    .stay__productive__image img {
-        width: 40vw;
-        height: 50vh;
-    }
-
-    .stay__productive header {
-        font-size: 2rem;
-    }
-
-    .stay__productive__content {
-        align-self: center;
-        width: 30vw;  
-    }
-
-    .subscription__testimonial > div {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .subscription__testimonial article {
-        width: 25vw;
-    }
-
-    .get__access {
-        text-align: center;
-        width: 40vw;
-    }
-
-    .location {
-        width: 30vw;
-        height: 2vw;
-    }
-
-    .email__subscription a, .email__subscription input {
-        padding: 0.6vw 2vw;
-    }
-
-    .email__subscription {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .email__subscription a {
-        width: 100%;
-    }
-
-    .email__subscription input {
-        width: 100%;
-    }
-
-    .footer__container {
-        display: flex;
-        justify-content: space-around;
-    }
+.hurddle--feedback div p:first-child{ font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 0.5em;
 }
