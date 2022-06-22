@@ -54,3 +54,43 @@ img {
     font-size: 2em;
     margin-bottom: 0.5em;
 }
+h2 {
+    margin: 1em 0;
+}
+.hurddle--grow,
+    .hurddle--conversation,
+    .hurddle--users {
+        margin-left: 4vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+        border: 2px solid rgb(242, 227, 227);
+        padding: 1vw 1.5vw;
+
+    }
+
+
+
+@media screen and (min-width: 600px) {
+    .hurddle--header {
+        display: flex;
+        text-align: start;
+        background-image: url(./images/bg-section-top-desktop-1.svg);
+    }
+
+    .hurddle--header div:first-child {
+        align-self: center;
+    }
+
+    .hurddle--grow,
+    .hurddle--conversation,
+    .hurddle--users {
+        display: flex;
+    }
+
+    .section--content {
+        align-self: center;
+        width: 70vw;
+        margin-right: 15vw;
+    }
+
+}
