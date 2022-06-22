@@ -58,11 +58,11 @@ h2 {
     margin: 1em 0;
 }
 .hurddle--grow,
-    .hurddle--conversation,
-    .hurddle--users {
-        margin-left: 4vw;
+.hurddle--conversation,
+.hurddle--users {
         margin-top: 4vw;
         margin-bottom: 4vw;
+        margin-left: 4vw;
         border: 2px solid rgb(242, 227, 227);
         padding: 1vw 1.5vw;
 
@@ -82,14 +82,27 @@ h2 {
     }
 
     .hurddle--grow,
-    .hurddle--conversation,
     .hurddle--users {
         display: flex;
+       
+    }
+
+    .hurddle--conversation {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: end;
+    }
+
+    .hurddle--conversation .section--content {
+        margin-right: -2vw;
+        padding-right: 2vw;
+        margin-left: 15vw;
     }
 
     .section--content {
         align-self: center;
         width: 70vw;
+        text-align: start;
         margin-right: 15vw;
     }
 
