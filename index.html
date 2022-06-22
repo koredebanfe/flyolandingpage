@@ -9,17 +9,17 @@
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </head>
 <body>
-    <nav>
-        <div class="nav--logo">
-            <img src="./images/logo.svg" alt="logo icon">
-        </div>
+    <div class="header">
+        <nav>
+            <div class="nav--logo">
+                <img src="./images/logo.svg" alt="logo icon">
+            </div>
+    
+            <div class="nav--links">
+                <a href="#">Try it free</a>
+            </div>
+        </nav>
 
-        <div class="nav--links">
-            <a href="#">Try it free</a>
-        </div>
-    </nav>
-
-    <main class="container">
         <heading class="hurddle--header">
             <div>
                 <h1>
@@ -31,13 +31,15 @@
                     your audience. Create connections with your users as you engage in genuine discussion. 
                 </p>
     
-                <a href="#"> Get Started For Free</a>
+                <a href="#" class="start--button"> Get Started For Free</a>
             </div>
             <div>
                 <img src="./images/screen-mockups.svg" alt="mockup screen">
             </div>
         </heading>
-
+    </div>
+    
+    <main class="container">
         <section class="hurddle--grow">
             <div class="section--content">
                 <h2>
@@ -89,46 +91,48 @@
             <h2>
                 Ready To Build Your Community?
             </h2>
-            <a href="#"> Get Started For Free</a>
+            <a href="#" class="start--button"> Get Started For Free</a>
         </section>
     </main>
 
     <footer class="footer">
+        <div>
+            <img src="./images/footericon.svg" alt="logo">
+        </div>
+
         <section class="hurddle--signup">
-            <img src="./images/logo.svg" alt="logo">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-                vestibulum a, ultrices quis sem.
-            </p>
-            <p>
-                <span class="hurddle--contact"><img src="./images/icon-phone.svg" alt="hurddle call"></span>
-                Phone: +1-543-123-4567
-            </p>
-            <p>
-                <span class="hurddle--contact"><img src="./images/icon-email.svg" alt="hurddle email"></span>
-                example@huddle.com
-            </p>
-
-            <div class="hurddle--social">
-                <img src="./images/" alt="">
+            <div class="hurdle--location">
+                <p>
+                    <span><img src="./" alt=""></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+                    vestibulum a, ultrices quis sem.
+                </p>
+                <p>
+                    <span class="hurddle--contact"><img src="./images/icon-phone.svg" alt="hurddle call"></span>
+                    Phone: +1-543-123-4567
+                </p>
+                <p>
+                    <span class="hurddle--contact"><img src="./images/icon-email.svg" alt="hurddle email"></span>
+                    example@huddle.com
+                </p>
             </div>
-        </section>
 
-        <section class="hurddle--subcription">
-            <h3>
-                Newsletter
-            </h3>
-
-            <p>
-                To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-                send you spam or pass on your email address
-            </p>
-            <div class="hurddle--input">
-                <form action="">
-                    <input type="text" name="email">
-                    <input type="submit" value="Subscribe">
-                </form>
+            <div class="hurddle--details">
+                <a href="#">About Us</a>
+                <a href="#">What We Do</a>
+                <a href="#">FAQ</a>  
             </div>
+    
+            <div>
+                <a href="#">Career</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact Us</a>
+            </div>
+    
+            <div class="hurdle--socials">
+                <a href="#"><img src="" alt="facebook"></a>
+                <a href="#"><img src="" alt="twitter"></a>
+                <a href="#"><img src="" alt="instagram"></a>
+            </div> 
         </section>
     </footer>
 </body>
